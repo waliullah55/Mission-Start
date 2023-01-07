@@ -32,30 +32,35 @@ body {
     width: 100%;
     height: 100vh;
 }
-.nav{
+
+.nav {
     width: 1040px;
     margin: 0 auto;
     display: flex;
     padding-top: 20px;
     justify-content: space-between;
 }
-.nav h3{
+
+.nav h3 {
     color: #FFF;
     font-size: 28px;
     font-weight: 700;
 }
-.nav-menu ul{
+
+.nav-menu ul {
     list-style: none;
     display: flex;
     justify-content: center;
 }
-.nav-menu ul li a{
+
+.nav-menu ul li a {
     text-decoration: none;
     color: #F3F3F3;
     font-size: 18px;
     font-weight: 600;
     padding-left: 20px;
 }
+
 .bannar-details {
     display: flex;
     text-align: right;
@@ -83,35 +88,81 @@ body {
 
 /* About me  */
 
-.about-container{
+.about-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 700px;
     gap: 40px;
 }
-.about-content h3{
-font-size: 40px;
-font-weight: 700;
-color: #151414;
-width: 400px;
+
+.about-content h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    width: 400px;
 }
-.about-content p{
+
+.about-content p {
     font-size: 16px;
     color: #444343;
     margin: 16px 0 24px;
 }
-.about-content ul{
+
+.about-content ul {
     list-style: none;
 }
-.about-content ul li{
+
+.about-content ul li {
     color: #444343;
     font-size: 16px;
 }
-.about-content ul li i{
+
+.about-content ul li i {
     color: rgb(75, 249, 89);
     width: 24px;
     height: 24px;
+}
+
+/* Blog  */
+
+.hot-gadge {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #005FAC;
+    padding-bottom: 20px;
+}
+
+.blogs {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.blog img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 4px 7px 20px #151414;
+}
+
+.blog h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    margin: 15px 0;
+}
+
+.blog span {
+    color: #151414;
+}
+
+.blog .blog-btn {
+    background: transparent;
+    border: 1px solid #a59e9e;
+    margin: 2px 0;
+    padding: 1px 10px;
+    border-radius: 3px;
 }
 
 /* plan section  */
@@ -177,46 +228,57 @@ width: 400px;
 
 /* start footer area */
 
-.footer{
+.footer {
     background-color: #151414;
     color: #FFF;
     height: 500px;
 }
-.footer-container{
+
+.footer-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.future, .subscribe{
+
+.future,
+.subscribe {
 
     margin: 130px 0;
 }
-.custom-width{
+
+.custom-width {
     width: 500px;
 }
-.future-tittle{
+
+.future-tittle {
     font-size: 45px;
     font-weight: 700;
 
 }
-.future p, h5{
+
+.future p,
+h5 {
     font-size: 16px;
     font-weight: 400;
     margin: 16px 0 24px;
 }
-.future h5{
+
+.future h5 {
     margin: 16px 0;
 }
-.footer .icons a{
+
+.footer .icons a {
     width: 46px;
     height: 46px;
     margin-right: 18px;
 }
-.sub-tittle{
+
+.sub-tittle {
     font-size: 25px;
     font-weight: 600;
 }
-.subscribe input{
+
+.subscribe input {
     font-size: 18px;
     color: #F3F3F3;
     padding: 18px;
@@ -226,7 +288,8 @@ width: 400px;
     background: transparent;
 
 }
-.subscribe-btn{
+
+.subscribe-btn {
     background-color: #005FAC;
     color: #fff;
     margin-top: 16px;
