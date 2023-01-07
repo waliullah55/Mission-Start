@@ -58,11 +58,43 @@ body {
     margin-left: 70px;
 }
 
+/* About me  */
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 700px;
+    gap: 40px;
+}
+.about-content h3{
+font-size: 40px;
+font-weight: 700;
+color: #151414;
+width: 400px;
+}
+.about-content p{
+    font-size: 16px;
+    color: #444343;
+    margin: 16px 0 24px;
+}
+.about-content ul{
+    list-style: none;
+}
+.about-content ul li{
+    color: #444343;
+    font-size: 16px;
+}
+.about-content ul li i{
+    color: rgb(75, 249, 89);
+    width: 24px;
+    height: 24px;
+}
 
 /* plan section  */
 
 .plan-tittle {
-    text-align: right;
+    text-align: center;
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 50px;
@@ -104,15 +136,17 @@ body {
     height: 300px;
     position: relative;
 }
-.time-content{
+
+.time-content {
     width: 400px;
     position: absolute;
     top: 60px;
     left: 60px;
 }
-.time-tittle{
-color: #FFF;
-font-size: 40px;
-font-weight: 700;
+
+.time-tittle {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
 
 }
