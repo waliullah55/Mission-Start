@@ -62,7 +62,7 @@ body {
 
 .about-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 700px;
     gap: 40px;
@@ -149,4 +149,58 @@ width: 400px;
     font-size: 40px;
     font-weight: 700;
 
+}
+
+
+/* start footer area */
+
+.footer{
+    background-color: #151414;
+    color: #FFF;
+    height: 500px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.future, .subscribe{
+    /* width: 49%; */
+    margin: 130px 0;
+}
+.future-tittle{
+    font-size: 45px;
+    font-weight: 700;
+
+}
+.future p, h5{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 16px 0 24px;
+}
+.future h5{
+    margin: 16px 0;
+}
+.footer .icons a{
+    width: 46px;
+    height: 46px;
+    margin-right: 18px;
+}
+.sub-tittle{
+    font-size: 25px;
+    font-weight: 600;
+}
+.subscribe input{
+    font-size: 18px;
+    color: #F3F3F3;
+    padding: 18px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 1px solid #F3F3F3;
+    background: transparent;
+
+}
+.subscribe-btn{
+    background-color: #005FAC;
+    color: #fff;
 }
